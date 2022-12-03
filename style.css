@@ -1,5 +1,5 @@
 * {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 body {
@@ -8,10 +8,80 @@ body {
 }
 
 #header {
-    display: flex;
-    font-size: 24px;
     color: #F9FAF8;
     background-color: #1F2937;
+    padding: 10px 0px 20px 0px;
+}
+
+.header-in-header {
+    margin: 0px 100px;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.header-links {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-links a {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+
+
+.bottom-header {
+    display: flex;
+    flex: 0 1 1000px;
+    justify-content: space-between;
+    margin: 50px 0px;
+}
+
+.header-card {
+    width: 400px;
+    min-width: 300px;
+    gap: 10px;
+    padding: 10px;
+}
+
+.header-card-title {
+    font-size: 48px;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: #F9FAF8;
+    margin: 0px;
+}
+
+.header-card-paragraph {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #E5E7EB;
+}
+
+.sign-up-button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: 800;
+    padding: 10px 20px;
+    border-radius: 5%;
+}
+
+.header-img {
+    width: 400px;
+    height: 300px;
 }
 
 #footer {
